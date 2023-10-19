@@ -6,7 +6,7 @@ jobs:
       image: ubuntu-2204:2022.07.1
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
+      - run: echo "hello world"
 
 workflows:
   my-workflow:
